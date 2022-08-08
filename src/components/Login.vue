@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
 import profile from "./profile";
 
 export default {
@@ -32,10 +32,10 @@ export default {
   },
   methods: {
     async submitForm() {
-      const response=await axios.post('Login',{
-        mobile: this.mobile,
-        password: this.password,
-      })
+      // const response = await axios.post('Login',{
+      //   mobile: this.mobile,
+      //   password: this.password,
+      // })
 
     },
     confirm() {

@@ -1,6 +1,6 @@
 <template>
 
-  <!-- <validation-observer
+   <validation-observer
        ref="observer"
        v-slot="{ invalid }"
    >
@@ -88,7 +88,6 @@
        </v-btn>
      </form>
    </validation-observer>
-   -->
  </template>
 
  <script>
